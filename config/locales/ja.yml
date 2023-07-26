@@ -1,0 +1,4 @@
+# Japanese strings go here for Rails i18n
+ja:
+  wiki_history_label_undo: 元に戻す
+  wiki_history_label_redo: やり直し

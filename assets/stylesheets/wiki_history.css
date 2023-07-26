@@ -1,0 +1,3 @@
+.jstb_undo.disabled, .jstb_redo.disabled {
+  opacity: 0.3 !important;
+}

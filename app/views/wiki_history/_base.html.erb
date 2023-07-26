@@ -1,0 +1,14 @@
+<% content_for :header_tags do %>
+  <script>
+    var WikiHistory = {
+      config: {
+        resources: {
+          labelUndo: "<%= l(:wiki_history_label_undo) %>",
+          labelRedo: "<%= l(:wiki_history_label_redo) %>",
+        }
+      }
+    }
+  </script>
+  <%= javascript_include_tag "wiki_history", plugin: "redmine_wiki_history" %>
+  <%= stylesheet_link_tag "wiki_history", plugin: "redmine_wiki_history" %>
+<% end %>
