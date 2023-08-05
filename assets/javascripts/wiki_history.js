@@ -185,6 +185,7 @@
     undo: undoButton,
     redo: redoButton,
     init_wiki_history: initWikiHistory,
+    space_wiki_history: {type: 'space'},
     ...jsToolBar.prototype.elements,
   };
 
